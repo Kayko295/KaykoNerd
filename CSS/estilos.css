@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://cdn.shopify.com/s/files/1/2658/1334/products/HJ08064_1024x1024.jpg?v=1571678333');
+    font-family: Arial;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /*Seletor Hierarquico*/
+  .menu li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: teal;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .title, .subTitle{
+    color: #00003f;
+    text-align: center;
+  }
+  
+  .subTitle {
+    font-style: italic;
+  }
+  
+  
